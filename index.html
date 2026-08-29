@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Back2Use</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Back2Use</h1>
+        <p>Marketplace Barang Bekas</p>
+
+        <nav>
+            <ul>
+                <li><a href="#barang">Barang</a></li>
+                <li><a href="#jual">Jual Barang</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="barang">
+            <h2>Barang Bekas</h2>
+
+            <img src="barang.jpg" width="400" alt="Barang bekas">
+
+            <blockquote>
+                <p>
+                    <em>"Barang lama, just make it back to use."</em>
+                </p>
+            </blockquote>
+
+            <p>
+                Temukan barang bekas yang masih layak digunakan
+                di <strong>Back2Use</strong>.<br>
+                Pilih barang yang kamu butuhkan dengan harga yang sesuai.
+            </p>
+
+            <h2>Kategori</h2>
+
+            <ul>
+                <li>Elektronik</li>
+                <li>Pakaian</li>
+                <li>Buku</li>
+                <li>Lainnya</li>
+            </ul>
+
+            <h2>Barang yang Tersedia</h2>
+
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Barang</th>
+                        <th>Harga</th>
+                        <th>Kondisi</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Laptop</td>
+                        <td>Rp3.000.000</td>
+                        <td>Baik</td>
+                    </tr>
+
+                    <tr>
+                        <td>Keyboard</td>
+                        <td>Rp300.000</td>
+                        <td>Bekas</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+        <aside>
+            <h2>Informasi</h2>
+
+            <p>
+                Barang yang ditawarkan di Back2Use harus
+                <strong>masih layak digunakan</strong>.
+            </p>
+        </aside>
+
+        <section id="jual">
+
+            <h2>Jual Barang</h2>
+
+            <form>
+
+                <label>Nama Barang:</label><br>
+                <input type="text" placeholder="Nama barang">
+                <br><br>
+
+                <label>Harga:</label><br>
+                <input type="text" placeholder="Harga barang">
+                <br><br>
+
+                <label>Kondisi Barang:</label><br>
+
+                <input type="radio" name="kondisi" value="baik" checked>
+                Baik
+
+                <input type="radio" name="kondisi" value="bekas">
+                Bekas
+
+                <br><br>
+
+                <label>Deskripsi:</label><br>
+                <textarea placeholder="Deskripsi barang"></textarea>
+                <br><br>
+
+                <input type="submit" value="Jual Barang">
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Back2Use &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
